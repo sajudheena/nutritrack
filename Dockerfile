@@ -31,4 +31,5 @@ RUN mkdir -p /app/data
 
 EXPOSE 8080
 
-CMD ["/app/server", "--port", "8080", "--db", "/app/data/nutritrack.db"]
+# Use shell form so $PORT environment variable is expanded at runtime by Railway
+CMD ["/bin/sh", "-c", "/app/server --port ${PORT:-8080} --db /app/data/nutritrack.db"]
