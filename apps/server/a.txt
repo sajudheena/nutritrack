@@ -1,0 +1,33 @@
+Resolving dependencies...
+Downloading packages...
++ adaptive_number 1.0.0
++ args 2.7.0
++ async 2.13.1
++ clock 1.1.2
++ collection 1.19.1
++ common 1.0.0 from path ..\..\packages\common
++ convert 3.1.2
++ crypto 3.0.7
++ dart_jsonwebtoken 2.17.0 (3.4.1 available)
++ ed25519_edwards 0.3.1
++ ffi 2.2.0
++ fixnum 1.1.1
++ http_methods 1.1.1
++ http_parser 4.1.2
++ js 0.7.2
++ meta 1.18.3
++ path 1.9.1
++ pointycastle 3.9.1 (4.0.0 available)
++ shelf 1.4.2
++ shelf_router 1.1.4
++ source_span 1.10.2
++ sqlite3 2.9.4 (3.3.2 available)
++ stack_trace 1.12.1
++ stream_channel 2.1.4
++ string_scanner 1.4.1
++ term_glyph 1.2.2
++ typed_data 1.4.0
++ web 1.1.1
+Changed 28 dependencies!
+3 packages have newer versions incompatible with dependency constraints.
+Try `dart pub outdated` for more information.
